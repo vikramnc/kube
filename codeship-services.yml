@@ -1,4 +1,4 @@
-demo:
+lamp:
   build:
     image: wpapp
     dockerfile: Dockerfile

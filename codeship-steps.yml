@@ -1,0 +1,3 @@
+- name: wp
+  service: lamp
+  command: echo "Hi"
