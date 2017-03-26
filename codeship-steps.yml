@@ -1,3 +1,9 @@
-- name: wp
-  service: lamp
-  command: echo "Hi"
+- type: serial
+  steps:
+    - name: dockerhub_push
+      service: lamp
+      type: push
+      image_name: vikramnc/kube
+      registry: https://index.docker.io/v1/
+      encrypted_dockercfg_path: dockercfg.encrypted
+	  
