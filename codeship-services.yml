@@ -2,7 +2,6 @@ lamp:
   build:
     image: wpapp
     dockerfile: Dockerfile
-
 - type: serial
   steps:
     - name: dockerhub_push
