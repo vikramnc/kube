@@ -6,4 +6,3 @@
       image_name: vikramnc/kube
       registry: https://index.docker.io/v1/
       encrypted_dockercfg_path: dockercfg.encrypted
-	  
