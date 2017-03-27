@@ -1,4 +1,4 @@
 lamp:
   build:
-    image: wpapp
+    image: vikramnc/kube
     dockerfile: Dockerfile
