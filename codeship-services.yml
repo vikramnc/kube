@@ -1,4 +1,4 @@
 lamp:
   build:
-    image: vikramnc/kube
+    image: vikramnc/apache
     dockerfile: Dockerfile
